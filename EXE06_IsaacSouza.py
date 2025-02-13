@@ -7,7 +7,7 @@ if idade >= 16 and idade < 18:
 elif idade >= 18:
     print('Você pode aprender a dirigir')
 
-elif idade <= 15:
+elif idade >= 14:
     print('Você pode comprar um bilhete de loteria')
 
 else:

@@ -2,7 +2,7 @@
 din = int(input('Qual o valor do seu salario: '))
 
 if din <= 2259.20:
-    print('Nada')
+    print('Você não paga impostos')
 
 elif din >= 2259.21 and din <= 2826.65:
     imposto = din * 0.075
